@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.home{
+  padding-top: 30px;
+  
+}
+.about{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.list-unstyled{
+  margin-left: 160px;
+}
+.text2{
+  margin-left: 170px;
+}
+.text3{
+  margin-left: 140px;
+}
