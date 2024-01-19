@@ -1,6 +1,6 @@
 import React from 'react'
 import MyImage from './logo.png';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -25,16 +25,16 @@ export default function Header() {
     <div class="collapse navbar-collapse justify-content-end me-5" id="nav">
       <ul class="navbar-nav ms-4 mb-2 mb-lg-0">
         <li class="nav-item me-4">
-          <a className="nav-link active text-light fw-bold " aria-current="page" href="#home">Home</a>
-          {/* <Link to="/" className='nav-link active text-light fw-bold'>Home</Link> */}
+          {/* <a className="nav-link active text-light fw-bold " aria-current="page" href="/home">Home</a> */}
+          <Link to="/home" className='nav-link active text-light fw-bold'>Home</Link>
         </li>
         <li class="nav-item me-4">
-          <a className="nav-link text-light fw-bold" href="#about">About</a>
-          {/* <Link to="/about" className='nav-link active text-light fw-bold'>About</Link> */}
+          {/* <a className="nav-link text-light fw-bold" href="/about">About</a> */}
+          <Link to="/about" className='nav-link active text-light fw-bold'>About</Link>
         </li>
         <li class="nav-item me-4">
-          <a className="nav-link text-light fw-bold" href="#services">Services</a>
-          {/* <Link to="/services" className='nav-link active text-light fw-bold'>Services</Link> */}
+          {/* <a className="nav-link text-light fw-bold" href="/services">Services</a> */}
+          <Link to="/services" className='nav-link active text-light fw-bold'>Services</Link>
         </li>
       </ul>
      
