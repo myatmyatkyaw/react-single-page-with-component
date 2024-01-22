@@ -26,7 +26,7 @@ export default function Header() {
       <ul class="navbar-nav ms-4 mb-2 mb-lg-0">
         <li class="nav-item me-4">
           {/* <a className="nav-link active text-light fw-bold " aria-current="page" href="/home">Home</a> */}
-          <Link to="/home" className='nav-link active text-light fw-bold'>Home</Link>
+          <Link to="/" className='nav-link active text-light fw-bold'>Home</Link>
         </li>
         <li class="nav-item me-4">
           {/* <a className="nav-link text-light fw-bold" href="/about">About</a> */}
@@ -44,3 +44,4 @@ export default function Header() {
 </>
   )
 }
+

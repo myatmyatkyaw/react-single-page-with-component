@@ -11,9 +11,10 @@ export default function Footer() {
           <div className="container-fluid ">
               <div className="row">
                   {/* column 1 */}
-                  <div className='col-md-4 col-sm-6 text-center text-light p-3'>
+                  <div className='col-md-4 col-sm-12 text-light p-3'>
                     <h4>Company</h4>
-                    <ul className='list-unstyled text-start'>
+                    <hr />
+                    <ul className='list-unstyled col-md-4'>
                       <li>FAQ</li>
                       <li>Terms of Use</li>
                       <li>Privacy Policy</li>
@@ -23,8 +24,9 @@ export default function Footer() {
                   </div>
 
                   {/* column 2 */}
-                  <div className='col-md-4 col-sm-6 text-center text-light p-3'>
+                  <div className='col-md-4 col-sm-12 text-light p-3'>
                     <h4>Product</h4>
+                    <hr />
                     <ul className='text2 list-unstyled text-start'>
                       <li>Download</li>
                       <li>Documentation</li>
@@ -36,8 +38,9 @@ export default function Footer() {
                   </div>
 
                     {/* column 2 */}
-                    <div className='col-md-4 col-sm-6 text-center text-light p-3'>
+                    <div className='col-md-4 col-sm-12 text-light p-3'>
                     <h4>Lorem ipsum</h4>
+                    <hr className='text-light'/>
                     <ul className='text3 list-unstyled text-start'>
                       <li>Download</li>
                       <li>Documentation</li>
